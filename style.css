@@ -1,28 +1,41 @@
 body {
-    
+    margin: 0;
     height: 100vh;
-    width: 100vw;  
+    width: 100vw;
+    
+    
+    
     
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
     width: 100vw;
     height: 100vh;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+    
 
 }
 
-div.cell {
+.cell {
     border: 1px solid black;
-    height: calc(100vh / 16);
-    width: calc(100vw / 16);
     box-sizing: border-box;
 }
 
-.hoverEffect {
-    background-color: aqua;
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
 }
- 
+
+.gridSize {
+    height: 5vh;
+    width: 15vw;    
+    font-size: 60px;
+    
+    
+}
